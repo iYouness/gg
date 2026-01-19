@@ -23,7 +23,7 @@
     },
     {
       "id": "sports",
-      "name": "Sports",
+      "name": "وادي الذئاب",
       "name_ar": "رياضة",
       "icon": "⚽",
       "order": 2
@@ -90,9 +90,9 @@
     {
       "id": 1,
       "name": "BeIN Sports 1",
-      "name_ar": "بي إن سبورتس 1",
+      "name_ar": "وادي الذئاب الجزء الثامن الحلقة/29",
       "logo": "https://example.com/logos/bein1.png",
-      "category_id": "sports",
+      "category_id": "وادي الذئاب",
       "description": "Premium sports channel",
       "description_ar": "قناة رياضية مميزة",
       "country": "Qatar",
@@ -102,7 +102,7 @@
           "id": 1,
           "name": "Server 1",
           "name_ar": "سيرفر 1",
-          "url": "https://example.com/streams/bein1-server1.m3u8",
+          "url": "https://scontent.frba1-2.fna.fbcdn.net/o1/v/t2/f2/m367/AQNDITpn22qaqeIa-C4S9NmlkEo_k58gh91tgy_m-EyPk6QmCk4jzYFuUnWx-Qn91cf2bM9GbYlN9smD12MM24UqEtRYT7YCEA774Rk.mp4?_nc_cat=1&_nc_oc=Adlg92oB5YG3zWfDIWQOnbR9D0CMqAtAxfAOVIltC2ds-CfqbqiiVA0Whvpcj7NwGRw&_nc_sid=9ca052&_nc_ht=scontent.frba1-2.fna.fbcdn.net&_nc_ohc=oX54TEQp9FQQ7kNvwGkOQKu&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3EyMCIsInZpZGVvX2lkIjoxMjA5MjIyNzcxMjY1NzU4LCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoyNDA0ODM2MDE2MTUwNzMyNSwiYXNzZXRfYWdlX2RheXMiOjgyLCJ2aV91c2VjYXNlX2lkIjoxMDgyNywiZHVyYXRpb25fcyI6MjAsImJpdHJhdGUiOjc2NzIwNywidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=8XmqhxbdBHVVN-eLhWi05w&_nc_zt=28&_nc_eui2=AeFsxbq9s5pU5uUNpUSsrfJlMhrXTJ-AT2IyGtdMn4BPYpJB-JpEFdZnq3jZqisA-f3Dr7vt6L_bYKv3G4z4PiCd&oh=00_Afo6dkIZGOXpDvwas93DqKbCzLsBaggYyoJ4Iurx7K8O-A&oe=69746F65&bytestart=0&byteend=933",
           "quality": "HD",
           "is_default": true
         },
@@ -127,9 +127,9 @@
     {
       "id": 2,
       "name": "BeIN Sports 2",
-      "name_ar": "بي إن سبورتس 2",
+      "name_ar": "وادي الذئاب الجزء الثامن الحلقة/30",
       "logo": "https://example.com/logos/bein2.png",
-      "category_id": "sports",
+      "category_id": "وادي الذئاب",
       "description": "Premium sports channel",
       "description_ar": "قناة رياضية مميزة",
       "country": "Qatar",
@@ -139,7 +139,7 @@
           "id": 1,
           "name": "Server 1",
           "name_ar": "سيرفر 1",
-          "url": "https://example.com/streams/bein2-server1.m3u8",
+          "url": "https://scontent.frba1-2.fna.fbcdn.net/o1/v/t2/f2/m367/AQPj2WHwGhYikyO3JNz5_usYQZfApqxgQ_lbOsImw4DbmfjoCGusFe0EGUqa2cEKUOo23Edgh7lKXH6w_9G6FHmGJAd27cOal_w1dE4.mp4?_nc_cat=111&_nc_oc=Adn73x5jRnZv4tAWfzOTqsDpg5BdYyEZcpvQQj8dANyyQ1fxoeyTsyHpiyJQ34IipJQ&_nc_sid=9ca052&_nc_ht=scontent.frba1-2.fna.fbcdn.net&_nc_ohc=eQWPkTPslUoQ7kNvwH9cRoL&efg=eyJ2ZW5jb2RlX3RhZyI6ImRhc2hfcjJhdjEtcjFnZW4ydnA5X3E4MCIsInZpZGVvX2lkIjo0NTc0NTQwNTk5NDQ5NzY3LCJvaWxfdXJsZ2VuX2FwcF9pZCI6MCwiY2xpZW50X25hbWUiOiJ1bmtub3duIiwieHB2X2Fzc2V0X2lkIjoxMzM0NTE5OTg3ODg1MjMxLCJhc3NldF9hZ2VfZGF5cyI6NTcsInZpX3VzZWNhc2VfaWQiOjEwMDk5LCJkdXJhdGlvbl9zIjoyNCwiYml0cmF0ZSI6MTExNTY5MCwidXJsZ2VuX3NvdXJjZSI6Ind3dyJ9&ccb=17-1&_nc_gid=SCGPvLqN3XTRIUQaJaMTog&_nc_zt=28&_nc_eui2=AeFVRSOV5FOtoLo6Z_v40yi63RaC2gTNkjbdFoLaBM2SNmvZZak8LoHND4fOVjyrW0pP9Ud0D2SVYd0OmZP48Pp-&oh=00_AfoqbP4nQ-EeYXoAaUCvbw85nwFFyDVqdEjJ9ESyUsAj3A&oe=6974A10C&bytestart=934&byteend=740930",
           "quality": "HD",
           "is_default": true
         },
