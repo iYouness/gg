@@ -1,0 +1,503 @@
+{
+  "app_config": {
+    "app_name": "My Streaming App",
+    "app_name_ar": "تطبيق البث المباشر",
+    "version": "1.0",
+    "theme": "dark",
+    "default_category": "all",
+    "auto_hide_controls_delay": 3000,
+    "player_settings": {
+      "auto_play": true,
+      "auto_switch_failed_server": true,
+      "remember_last_played": true
+    }
+  },
+  
+  "categories": [
+    {
+      "id": "all",
+      "name": "All",
+      "name_ar": "الكل",
+      "icon": "grid",
+      "order": 1
+    },
+    {
+      "id": "sports",
+      "name": "Sports",
+      "name_ar": "رياضة",
+      "icon": "⚽",
+      "order": 2
+    },
+    {
+      "id": "cartoons",
+      "name": "Cartoons",
+      "name_ar": "رسوم متحركة",
+      "icon": "🎨",
+      "order": 3
+    },
+    {
+      "id": "news",
+      "name": "News",
+      "name_ar": "أخبار",
+      "icon": "📰",
+      "order": 4
+    },
+    {
+      "id": "movies",
+      "name": "Movies",
+      "name_ar": "أفلام",
+      "icon": "🎬",
+      "order": 5
+    },
+    {
+      "id": "series",
+      "name": "Series",
+      "name_ar": "مسلسلات",
+      "icon": "📺",
+      "order": 6
+    },
+    {
+      "id": "music",
+      "name": "Music",
+      "name_ar": "موسيقى",
+      "icon": "🎵",
+      "order": 7
+    },
+    {
+      "id": "religious",
+      "name": "Religious",
+      "name_ar": "دينية",
+      "icon": "🕌",
+      "order": 8
+    },
+    {
+      "id": "entertainment",
+      "name": "Entertainment",
+      "name_ar": "ترفيه",
+      "icon": "🎭",
+      "order": 9
+    },
+    {
+      "id": "documentary",
+      "name": "Documentary",
+      "name_ar": "وثائقي",
+      "icon": "🌍",
+      "order": 10
+    }
+  ],
+  
+  "channels": [
+    {
+      "id": 1,
+      "name": "BeIN Sports 1",
+      "name_ar": "بي إن سبورتس 1",
+      "logo": "https://example.com/logos/bein1.png",
+      "category_id": "sports",
+      "description": "Premium sports channel",
+      "description_ar": "قناة رياضية مميزة",
+      "country": "Qatar",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/bein1-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/bein1-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        },
+        {
+          "id": 3,
+          "name": "Server 3",
+          "name_ar": "سيرفر 3",
+          "url": "https://example.com/streams/bein1-server3.m3u8",
+          "quality": "Auto",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "BeIN Sports 2",
+      "name_ar": "بي إن سبورتس 2",
+      "logo": "https://example.com/logos/bein2.png",
+      "category_id": "sports",
+      "description": "Premium sports channel",
+      "description_ar": "قناة رياضية مميزة",
+      "country": "Qatar",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/bein2-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/bein2-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Cartoon Network",
+      "name_ar": "كرتون نتورك",
+      "logo": "https://example.com/logos/cn.png",
+      "category_id": "cartoons",
+      "description": "Kids cartoon channel",
+      "description_ar": "قناة رسوم متحركة للأطفال",
+      "country": "USA",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/cn-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Disney Channel",
+      "name_ar": "ديزني",
+      "logo": "https://example.com/logos/disney.png",
+      "category_id": "cartoons",
+      "description": "Disney cartoons and shows",
+      "description_ar": "قناة ديزني للرسوم المتحركة",
+      "country": "USA",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/disney-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/disney-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Al Jazeera",
+      "name_ar": "الجزيرة",
+      "logo": "https://example.com/logos/aljazeera.png",
+      "category_id": "news",
+      "description": "International news channel",
+      "description_ar": "قناة إخبارية عالمية",
+      "country": "Qatar",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/aljazeera-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/aljazeera-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Al Arabiya",
+      "name_ar": "العربية",
+      "logo": "https://example.com/logos/alarabiya.png",
+      "category_id": "news",
+      "description": "News channel",
+      "description_ar": "قناة إخبارية",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/alarabiya-server1.m3u8",
+          "quality": "Auto",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "MBC Movies",
+      "name_ar": "ام بي سي أفلام",
+      "logo": "https://example.com/logos/mbc-movies.png",
+      "category_id": "movies",
+      "description": "Arabic and international movies",
+      "description_ar": "أفلام عربية وعالمية",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/mbc-movies-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/mbc-movies-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        },
+        {
+          "id": 3,
+          "name": "Server 3",
+          "name_ar": "سيرفر 3",
+          "url": "https://example.com/streams/mbc-movies-server3.m3u8",
+          "quality": "HD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "OSN Movies",
+      "name_ar": "او اس ان أفلام",
+      "logo": "https://example.com/logos/osn-movies.png",
+      "category_id": "movies",
+      "description": "Premium movies channel",
+      "description_ar": "قناة أفلام مميزة",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/osn-movies-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "MBC Drama",
+      "name_ar": "ام بي سي دراما",
+      "logo": "https://example.com/logos/mbc-drama.png",
+      "category_id": "series",
+      "description": "Arabic drama series",
+      "description_ar": "مسلسلات درامية عربية",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/mbc-drama-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/mbc-drama-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Rotana Music",
+      "name_ar": "روتانا موسيقى",
+      "logo": "https://example.com/logos/rotana-music.png",
+      "category_id": "music",
+      "description": "Arabic music channel",
+      "description_ar": "قناة موسيقى عربية",
+      "country": "Saudi Arabia",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/rotana-music-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Mecca Live",
+      "name_ar": "مكة المباشر",
+      "logo": "https://example.com/logos/mecca.png",
+      "category_id": "religious",
+      "description": "Live from Mecca",
+      "description_ar": "بث مباشر من مكة المكرمة",
+      "country": "Saudi Arabia",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/mecca-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/mecca-server2.m3u8",
+          "quality": "Auto",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "MBC Action",
+      "name_ar": "ام بي سي أكشن",
+      "logo": "https://example.com/logos/mbc-action.png",
+      "category_id": "entertainment",
+      "description": "Action and entertainment",
+      "description_ar": "قناة أكشن وترفيه",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/mbc-action-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "National Geographic",
+      "name_ar": "ناشيونال جيوغرافيك",
+      "logo": "https://example.com/logos/natgeo.png",
+      "category_id": "documentary",
+      "description": "Documentary channel",
+      "description_ar": "قناة وثائقية",
+      "country": "USA",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/natgeo-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/natgeo-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "BBC Sports",
+      "name_ar": "بي بي سي سبورت",
+      "logo": "https://example.com/logos/bbc-sports.png",
+      "category_id": "sports",
+      "description": "International sports",
+      "description_ar": "رياضة عالمية",
+      "country": "UK",
+      "language": "English",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/bbc-sports-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Spacetoon",
+      "name_ar": "سبيستون",
+      "logo": "https://example.com/logos/spacetoon.png",
+      "category_id": "cartoons",
+      "description": "Arabic cartoons",
+      "description_ar": "رسوم متحركة عربية",
+      "country": "UAE",
+      "language": "Arabic",
+      "servers": [
+        {
+          "id": 1,
+          "name": "Server 1",
+          "name_ar": "سيرفر 1",
+          "url": "https://example.com/streams/spacetoon-server1.m3u8",
+          "quality": "HD",
+          "is_default": true
+        },
+        {
+          "id": 2,
+          "name": "Server 2",
+          "name_ar": "سيرفر 2",
+          "url": "https://example.com/streams/spacetoon-server2.m3u8",
+          "quality": "SD",
+          "is_default": false
+        }
+      ]
+    }
+  ],
+  
+  "settings": {
+    "custom_json_url": "",
+    "auto_refresh": true,
+    "refresh_interval": 3600,
+    "language": "ar",
+    "grid_columns": 3,
+    "player_controls_timeout": 3000
+  }
+}
